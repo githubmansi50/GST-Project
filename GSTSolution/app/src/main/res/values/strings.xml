@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GST Solution</string>
+    <string name="action_setting1">Feedback</string>
+    <string name="action_setting2">Aboutus</string>
+    <string name="action_setting3">Help and services</string>
+    <string name="action_setting4">Logout</string>
+</resources>

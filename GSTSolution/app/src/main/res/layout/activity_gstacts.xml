@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.GSTacts">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btngstservice"
+        android:text="Services"
+        android:background="@drawable/button2"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btngsthsncode" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btngsthsncode"
+        android:text="HSN CODE"
+        android:background="@drawable/button2"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/btngstservice"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

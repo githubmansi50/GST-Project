@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.GSTcalculator">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textGSTcalculatorHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="GST Calculator"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:id="@+id/spinnerGSTCalcField"
+                android:layout_below="@+id/textGSTcalculatorHeading"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp" />
+            
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:id="@+id/spinnerGSTCalcProductCategory"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/spinnerGSTCalcField"
+                android:layout_marginTop="10dp"></Spinner>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:id="@+id/spinnerGSTCalculatorService"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/spinnerGSTCalcProductCategory" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editGSTCalcQuantity"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/spinnerGSTCalculatorService"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:hint="Quantity"
+                android:maxLines="1"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editGSTCalcInitialPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editGSTCalcQuantity"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:hint="Initial Price"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/textGSTCalcResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editGSTCalcInitialPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="15dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnGSTCalcCalculate"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textGSTCalcResult"
+                android:layout_marginTop="15dp"
+                android:text="Calculate GST"
+                android:background="@drawable/button2"/>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

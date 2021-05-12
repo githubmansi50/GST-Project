@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.Feedback">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp">
+
+        <TextView
+            android:id="@+id/feedbackheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback  "
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/feedbackname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/feedbackheading"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/feedbackname"
+            android:id="@+id/feedbackno"
+            android:hint="Mobile No."
+            android:inputType="number"
+            android:maxLength="10"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/feedbackno"
+            android:id="@+id/feedbackemail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/feedbackemail"
+            android:id="@+id/feedbackmsg"
+            android:layout_marginTop="10dp"
+            android:hint="Message"
+            android:inputType="textPersonName"
+            android:maxLength="1000"/>
+
+
+        <Button
+            android:id="@+id/feedbacksubmit"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button2"
+            android:layout_marginTop="25dp"
+            android:text="Submit"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/feedbackmsg"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

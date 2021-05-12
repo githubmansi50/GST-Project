@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.UserHome">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textUserHomeHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Welcome User"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnSpeak"
+                android:layout_below="@+id/textUserHomeHeading"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@android:drawable/ic_btn_speak_now"
+                android:textColor="#ffffff"
+                android:textSize="19dp"
+                android:textStyle="normal"
+                android:typeface="serif" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeNews"
+                android:layout_marginTop="5dp"
+                android:text="News"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnSpeak"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeDiscussionForum"
+                android:layout_marginTop="5dp"
+                android:text="Discussion Forum"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeNews"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeKnowledgeSolution"
+                android:layout_marginTop="5dp"
+                android:text="Knowledge and Solution"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeDiscussionForum"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeGuestArticles"
+                android:layout_marginTop="5dp"
+                android:text="Guest Articles"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeKnowledgeSolution"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeFavourites"
+                android:layout_marginTop="5dp"
+                android:text="Favourites"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeGuestArticles"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeGSTCalculator"
+                android:layout_marginTop="5dp"
+                android:text="GST Calculator"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeFavourites"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeImportantLinks"
+                android:layout_marginTop="5dp"
+                android:text="Important Links"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeGSTCalculator"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeGSTActs"
+                android:layout_marginTop="5dp"
+                android:text="GST LAWS"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeImportantLinks"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btnUserHomeDownload"
+                android:layout_marginTop="5dp"
+                android:text="Get Tutorials"
+                android:background="@drawable/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/btnUserHomeGSTActs"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.Registration">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textUserRegHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Registration Form"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editUserRegName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textUserRegHeading"
+                android:layout_marginTop="20dp"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editUserRegName"
+                android:id="@+id/editUserRegMobile"
+                android:hint="Mobile No."
+                android:inputType="number"
+                android:maxLength="10"/>
+
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editUserRegMobile"
+                android:id="@+id/editUserRegAddressState" />
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editUserRegAddressState"
+                android:id="@+id/editUserRegAddressDistrict" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editUserRegAddressDistrict"
+                android:id="@+id/editUserRegPassword"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editUserRegPassword"
+                android:id="@+id/editUserRegEmail"
+                android:layout_marginTop="10dp"
+                android:hint="Email_ID"
+                android:inputType="textEmailAddress"/>
+
+
+            <Button
+                android:id="@+id/btnUserRegSubmit"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button2"
+                android:layout_marginTop="25dp"
+                android:text="Submit"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/editUserRegEmail"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.hsncode">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hsncode"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimaryDark"
+        android:id ="@+id/hsnimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hsnimage"
+        android:text="The Harmonized Commodity Description and Coding system generally refers to Harmonized system of nomenclature or simply HSN. It is a multipurpose international product nomenclature developed by the world custom organization(wco).For mare infomation please visit the following link :"
+        android:textColor="@color/cardview_dark_background"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/hsntext"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HSNCODE DETAILS"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/hsntext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:textSize="20dp"
+        android:id="@+id/texthsn"/>
+
+</RelativeLayout>

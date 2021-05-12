@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background13"
+    tools:context="main.com.gstsolution.VoiceSearch">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please tap on mic button and speak something."
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/txtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/butnSubmit"
+            android:layout_width="238dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button2"
+            android:text="SUBMIT"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

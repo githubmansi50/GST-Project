@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background21"
+    tools:context="main.com.gstsolution.sgst">
+    <TextView
+        android:id="@+id/States"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:text="States : "
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30dp"/>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/States">
+    <TableLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+       >
+        <TableRow>
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andra Pradesh"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arunachal Pradesh"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assam"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bihar"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chhatisgad"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delhi"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goa"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gujarat"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haryana"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/b10"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HimachalPradesh"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b11"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jammu and Kashmir"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jarkhand"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karnataka"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kerala"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Madya Pradesh"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maharashtra"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manipur"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meghalaya"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pudhucherry"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Punjab"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rajashtan"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mizoram"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nagaland"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Odisha"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/b25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sikkim"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamil Nadu"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telangana"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/b28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tripur"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uttarakhand"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/b30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UttarPradesh"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/b31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WestBengal"
+                android:textSize="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/cardview_light_background"
+                android:layout_margin="5dp"/>
+
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
